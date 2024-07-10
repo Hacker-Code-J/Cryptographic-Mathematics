@@ -1,0 +1,43 @@
+% pdflatex -shell-escape software-analysis-main.tex
+\documentclass[12pt,openany]{book}
+
+\input{preamble/cm-package}
+\input{preamble/cm-theorem}
+\input{preamble/cm-layout}
+\input{preamble/cm-tcolorbox}
+\input{preamble/cm-tikz}
+\input{preamble/cm-algorithm}
+\input{preamble/cm-listing}
+\input{preamble/cm-commands}
+
+
+\begin{document}
+	
+	\input{cm-titlepage}
+	\tableofcontents
+	\newpage
+	\chapter{Boolean Functions}
+	\input{chapter/cm-chap1}
+	
+%	\newpage
+%	\chapter{Quadratic Formula and Peano Axiom}
+%	\input{chapter/mm-chap2}
+%	
+%	\newpage
+%	\chapter{Functions}
+%	\input{chapter/mm-chap3}
+%	
+%	\newpage
+%	\chapter{Group Homomorphism}
+%	\input{chapter/mm-chap4}
+%	
+%	\newpage
+%	\chapter*{LaTex Practice}
+%	\input{latex-practice}
+	
+	% Appendix
+	\newpage
+	\appendix
+%	\input{appendix/mm-appendix-A}
+	
+\end{document}
